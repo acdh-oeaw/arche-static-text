@@ -1,0 +1,54 @@
+<p>ARCHE’s underlying system, initially based on the open-source repository software <a href="https://duraspace.org/fedora/">Fedora Commons</a> version 4, has been completely reworked in 2020. It is now based on a bespoke software stack. All data, stable identifiers (PIDs), and functionality both of the user interface and the APIs exposing data to external applications of the original application were preserved.</p>
+
+<p>Resources published via the repository get assigned a <a href="http://handle.net/">Handle</a>-based persistent identifier issued by the <a href="https://www.gwdg.de/application-services/persistent-identifier-pid">PID-service run by the GWDG</a>. By using this PIDs, we ensure that the resources remain referenceable and citable even if their actual location or the underlying repository system should change in the future.</p>
+
+<p>The system runs in a <a href="http://docker.com/">Docker</a> environment on one of the virtual machines hosted on dedicated servers maintained by the <a href="https://www.oeaw.ac.at/arz/">Computing Centre of the Academy (ARZ)</a>. The data is secured against any case of emergency or data loss with a multi-layered backup strategy, cf. <a href="#storage-procedures">Storage Procedures</a>.</p>
+
+<p>The technological development of the repository infrastructure is a continuous process, which is driven by the qualified staff of <a href="https://www.oeaw.ac.at/acdh">ACDH-CH</a> and supported by the <a href="https://www.oeaw.ac.at/arz">Academy’s computing centre</a>. Furthermore the team is in embedded in a broad network of data centres via the research infrastructures CLARIN and DARIAH as well as the working group Datenzentren of the DHd alliance.</p>
+
+<h3 id="software-stack">Software Stack</h3>
+
+<p>The system is built in a modular, service-oriented manner, consisting of multiple interconnected components communicating through well-defined APIs. The full code is available on <a href="https://github.com/acdh-oeaw?q=arche&amp;type=&amp;language=">GitHub</a>. Detailed technical documentation can be found under <a href="https://acdh-oeaw.github.io/arche-docs/">https://acdh-oeaw.github.io/arche-docs</a>.</p>
+
+<p>The main software stack implemented in PHP consists of the following components:</p>
+
+<ul>
+	<li><strong><a href="https://github.com/acdh-oeaw/arche-core">arche-core</a></strong> provides the REST API for CRUD operations and transactions support. Writing to the repository is only possible through this component.<br />
+	Its REST API is documented in <a href="//app.swaggerhub.com/apis/zozlak/arche/">https://app.swaggerhub.com/apis/zozlak/arche</a>.</li>
+	<li><strong><a href="https://github.com/acdh-oeaw/arche-doorkeeper">arche-doorkeeper</a></strong> implements ACDH-CH-specific business logic. It integrates with arche-core using arche-core’s handle system.</li>
+	<li><strong><a href="https://github.com/acdh-oeaw/arche-resolver">arche-resolver</a></strong> is the service for handling the URI namespace in use (in our case <a href="https://id.acdh.oeaw.ac.at">https://id.acdh.oeaw.ac.at</a>). It resolves URIs against identifiers in the repository and provides redirection to proper dissemination methods.</li>
+	<li><strong><a href="https://github.com/acdh-oeaw/arche-oaipmh">arche-oaipmh</a></strong> provides an OAI-PMH endpoint for the repository.</li>
+	<li><strong><a href="https://github.com/acdh-oeaw/arche-gui">arche-gui</a></strong> is ARCHE's graphical user interface for browsing its content as well as the API endpoint for other tools like the metadata editor. This part of the system is based on Drupal making use of some of its features, like multilinguality or static pages.</li>
+</ul>
+
+<p>A reference deployment of the components is provided by:</p>
+
+<ul>
+	<li><strong><a href="https://github.com/acdh-oeaw/arche-docker">arche-docker</a></strong>, a docker image providing the runtime environment for the ARCHE software stack.</li>
+	<li><strong><a href="https://github.com/acdh-oeaw/arche-docker-config">arche-docker-config</a></strong> exemplary configuration settings.</li>
+</ul>
+
+<h4 id="client-libraries">Client Libraries</h4>
+
+<p>To ease development of ARCHE components and client software a set of client libraries is provided. Documentation of the libraries is available at <a href="https://acdh-oeaw.github.io/arche-docs/">https://acdh-oeaw.github.io/arche-docs</a>.</p>
+
+<ul>
+	<li><strong><a href="https://github.com/acdh-oeaw/arche-lib">arche-lib</a></strong> provides a convenient and uniform PHP API for repository search and CRUD operations. The API can communicate with the repository either by using the REST API provided by arche-core (with support for both read and write operations) or by using direct database access, which is limited to read-only operations. The first communication mode is aimed at external clients. The direct database access is used by the internal repository components arche-doorkeeper, arche-resolver, arche-oaipmh, arche-gui.</li>
+	<li><strong><a href="https://github.com/acdh-oeaw/arche-lib-schema">arche-lib-schema</a></strong> provides object mappings for the ACDH-CH ontology. It is used by arche-doorkeeper and arche-gui.</li>
+	<li><strong><a href="https://github.com/acdh-oeaw/arche-lib-disserv">arche-lib-disserv</a></strong> provides a PHP API for handling of dissemination services, i.e. matching a repository resource with proper dissemination services and creating a redirection URL. It is used by arche-resolver and arche-gui.</li>
+	<li><strong><a href="https://github.com/acdh-oeaw/arche-lib-ingest">arche-lib-ingest</a></strong> provides a high-level PHP API for ingesting data into ARCHE. To this end RDF graphs with metadata are parsed and ingested as well as files from a given directory are indexed and ingested. It is used by curators to ingest data into ARCHE.</li>
+</ul>
+
+<h4 id="dissemination-services">Dissemination Services</h4>
+
+<p>The repository hosts a large variety of data types. While it provides a uniform default view on all the collections and digital objects with metadata and description, it also integrates smoothly with a growing set of specialised web applications designed to process and visualise specific data types or formats. These dissemination services run independently of the repository proper and are dynamically registered to be applied on certain types of data in the repository, so that for example a TEI (or any other XML) document can be rendered and viewed as HTML, geographical data plotted on a map or graph-based data visualized as an interactive network.</p>
+
+<p>The binding/matching of resources to certain dissemination services is dynamically configured based on certain characteristics of the resources. The binding is primarily governed by the format of the resources, however the binding mechanism allows flexible matching based on any metadata properties.</p>
+
+<h3 id="storage-procedures">Storage Procedures</h3>
+
+<p>Data storage and backup procedures are essential parts of our data management system. To avoid data loss due to deterioration of physical storage, malicious threats or other emergencies, redundancy is key for the preservation of data.<br />
+The primary server storage is a <a href="https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_6">RAID-6</a> configuration allowing to sustain read and write operations in the presence of up to two concurrent disk failures.</p>
+
+<p>Our backup policies follow a multi-layered setup: The live data stored on the repository production server is copied up every night to the ARZ NetApp production storage, of which numerous snapshots are stored on ARZ <a href="http://www.netapp.com/">NetApp</a> backup system in a separate location.<br />
+Daily snapshots are kept for 28 days, weekly snapshots for 52 weeks. In addition the data is encrypted and copied to a long-term storage in the computing center run by the <a href="http://www.mpcdf.mpg.de/">Max Planck Computing and Data Facility (MPCDF)</a> in Garching.</p>
