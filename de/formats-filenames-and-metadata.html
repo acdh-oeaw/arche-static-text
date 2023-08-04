@@ -1,0 +1,34 @@
+<h3 id="filenames">Dateinamen</h3>
+
+<p>Verwenden Sie für die Benennung von Dateien und Ordnern nur alphanumerische Zeichen ohne Sonderzeichen wie Anführungszeichen, Satzzeichen, Diakritika, Leerzeichen, Schrägstriche und dergleichen. Unterstriche (_) und Bindestriche (-) können verwendet werden. Weitere Hinweise finden Sie in den <a href="https://ianus-fdz.de/it-empfehlungen/projektphasen/dateiverwaltung/dateibennenung">Empfehlungen von IANUS</a>.</p>
+
+<h3 id="formats">Formate</h3>
+
+<p>Wir empfehlen, die Ressourcen in Standardformaten bereitzustellen, die von den jeweiligen Forschungsgemeinschaften anerkannt werden. Wir unterstützen Sie bei der Konvertierung der Daten, wenn dies notwendig und machbar ist.</p>
+
+<p>Geeignete Formate sollten weit verbreitet sein und wenn möglich offenen und nicht-proprietären Standards entsprechen. Dateien sollten nicht durch ein Passwort geschützt, verschlüsselt oder verlustbehaftet komprimiert werden. Sofern Dateien von Verweisen auf andere Dateien, Schriftarten oder andere externe Daten abhängen, sollten diese Objekte ebenfalls archiviert oder zumindest in beispielsweise einer README-Datei beschrieben werden. Wann immer eine Auswahl für die Kodierung möglich ist, wählen Sie bitte UTF-8 ohne Byte Order Mark (BOM) (siehe <a href="/browser/faq#faq-utf8-bom">FAQ</a>).</p>
+
+<p>Sofern Dateikonvertierungen erforderlich sind, sollte der potenzielle Informationsverlust minimiert werden. Ist eine verlustfreie Konvertierung in ein offenes oder empfohlenes Format nicht möglich, werden die Originaldateien zusammen mit den konvertierten Versionen archiviert.</p>
+
+<p>Das bevorzugte Format für annotierte Textdaten in unserem Repositorium ist <a href="http://tei-c.org/">TEI/XML</a> (Text Encoding Initiative) mit Metadaten in “teiHeaders”. Darüber hinaus müssen alle Sprachressourcen in <a href="http://www.clarin.eu/cmdi">CMDI</a> (Component Metadata Infrastructure) beschrieben werden, die automatisch auf Basis der ARCHE Metadaten generiert werden. Einen Überblick über die empfohlenen Standardformate finden Sie in den <a href="http://www.clarin.eu/content/standard-recommendations">CLARIN-Empfehlungen für Standards</a>.</p>
+
+<p>Für andere Formate, die nicht in den CLARIN-Standards enthalten sind, sowie für allgemeine Textformate und Medienformate finden Sie in der von uns bereitgestellten Tabelle eine Übersicht der bevorzugten und akzeptierten Formate. Die Tabelle basiert auf den von <a href="https://ianus-fdz.de/it-empfehlungen/dateiformate/index/">IANUS</a> und dem <a href="https://archaeologydataservice.ac.uk/help-guidance/instructions-for-depositors/file-formats/">Archaeology Data Service</a> empfohlenen Formaten.</p>
+
+<p>Bevorzugte und akzeptierte Formate in ARCHE (08. 2017). Bevorzugte Formate sind für die Langzeitkonservierung geeignet. Akzeptierte Formate erfordern eine Konvertierung.</p>
+
+<div id="fileformats-table-api">&nbsp;</div>
+
+<h3 id="metadata">Metadaten</h3>
+
+<p>Metadaten sollten grundlegende Fragen zu Ihren Daten beantworten, um anderen zu ermöglichen, die Daten zu verstehen, sie zu finden und zu teilen. Gute Metadaten geben Auskunft darüber, wie Daten produziert wurden, wer an der Erstellung beteiligt war und worum es sich bei den Daten handelt. Die Verwendung von Metadaten ist ein wesentlicher Bestandteil der Einhaltung der <a href="https://www.force11.org/group/fairgroup/fairprinciples">FAIR-Data</a>-Prinzipien, um die Auffindbarkeit, Zugänglichkeit, Interoperabilität und Wiederverwendbarkeit von Daten zu gewährleisten (siehe <a href="/browser/faq#faq-fair">FAQ</a>).</p>
+
+<p>Metadaten erlauben es, unterschiedliche Informationsebenen zu berücksichtigen, z.B. ganze Datensammlungen, einzelne Dateien und sogar granulare Datensätze. Idealerweise werden Metadaten unter Verwendung eines Standardformats so genau und so vollständig wie möglich erfasst. Der <a href="https://archaeologydataservice.ac.uk/help-guidance/instructions-for-depositors/collection-level-metadata/">Archaeology Data Service</a> und <a href="https://ianus-fdz.de/it-empfehlungen/projektphasen/dokumentation/metadaten-in-der-anwendung">IANUS</a> bieten formatunabhängige Metadaten auf Sammlungsebene an, die auf alle Arten von Fachdomänen angewendet werden können. Darüber hinaus werden in den <a href="https://ianus-fdz.de/it-empfehlungen/projektphasen/dokumentation/metadaten-in-der-anwendung">entsprechenden Abschnitten</a> der <a href="https://ianus-fdz.de/it-empfehlungen/">IT-Empfehlungen</a> von IANUS Metadaten auf Dateiebene dargestellt, die im Allgemeinen eher technischer Natur sind und stark vom Datentyp und den angewandten Methoden abhängen.</p>
+
+<p>Die für die Archivierung in ARCHE erforderlichen Metadaten sind in der Tabelle mit Metadatenanforderungen angeführt. In ARCHE werden neben Metadaten auf Sammlungs- und Dateiebene auch Metadaten auf Projektebene gespeichert. Von ARCHE vorgeschriebene Pflichtfelder sind als solche gekennzeichnet. Jedoch erhöht die Verwendung empfohlener Felder die Auffindbarkeit, Verständlichkeit und Zitierbarkeit der Daten substantiell. Das Metadatenschema von ARCHE ist im <a href="https://github.com/acdh-oeaw/repo-schema">OWL-Format</a> mit umfangreicher Dokumentation verfügbar, wahlweise auch in einer <a href="https://teiminator.acdh.oeaw.ac.at/services/owl2html.xql?owl=https%3A%2F%2Fraw.githubusercontent.com%2Facdh-oeaw%2Frepo-schema%2Fmaster%2Facdh-schema.owl">tabellarischen Darstellung</a>.</p>
+
+<p>Attribute sind für Projekte, Sammlungen und Ressourcen aufgelistet.<br />
+m = obligatorisch (mandatory), r = empfohlen (recommended), o = optional und * = Attribut kann mehrfach verwendet werden.</p>
+
+<p>&nbsp;</p>
+
+<div id="metadata-table-api">&nbsp;</div>
