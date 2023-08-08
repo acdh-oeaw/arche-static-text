@@ -68,7 +68,7 @@ understand the information without needing special resources such as the assista
 
 <p>All the actions relevant to preparation for and realisation of sustainable preservation are specified in our documentation and policies. All key steps are explicated in ARCHE’s <a href="/browser/deposition-process">Deposition Process</a>.</p>
 
-<p>The Collection Policy helps depositors in deciding if ARCHE is the right place for their data. The relevant steps for the preparation of data by depositors are documented in the section “Deposition Process - Before submission”. The submission is completed&nbsp; by signing the Deposition Agreement.</p>
+<p>The Collection Policy helps depositors in deciding if ARCHE is the right place for their data. The relevant steps for the preparation of data by depositors are documented in the section “Deposition Process - Before submission”. The submission is completed by signing the Deposition Agreement.</p>
 
 <p>After submission automated checks are executed with dedicated software tools and any errors are reported back to the depositors with request for action or confirmation of proposed measures. Only after successful completion of automated checks, manual curation takes place. A general idea of curation activities is given in the “Deposition Process - Curation step”. Detailed curation procedures followed by ARCHE curators are internally documented.</p>
 
@@ -86,7 +86,7 @@ understand the information without needing special resources such as the assista
 	<li><strong>Ingest to System</strong>: The AIP is ingested into the production instance of the ARCHE system and automated checks for integrity are applied.</li>
 </ol>
 
-<p>In order to avoid data loss, documented procedures for backup and recovery are in place. The physical safety and security of the preserved data is ensured by ARZ, the computing centre of the Austrian Academy of Sciences (ÖAW).&nbsp; Additionally, external bitstream preservation of both metadata and content is provided by the Max Planck Computing and Data Facility (MPCDF) in Garching. Any potential corruption of data is monitored with regular fixity checks.</p>
+<p>In order to avoid data loss, documented procedures for backup and recovery are in place. The physical safety and security of the preserved data is ensured by ARZ, the computing centre of the Austrian Academy of Sciences (ÖAW). Additionally, external bitstream preservation of both metadata and content is provided by the Max Planck Computing and Data Facility (MPCDF) in Garching. Any potential corruption of data is monitored with regular fixity checks.</p>
 
 <p>In case of the demise of the archive data and accompanying metadata can be transferred to another suitable archive. Dissemination services for downloading collections and respective metadata in ttl format enable the export of the archive’s content. Currently, records about format migrations and other alterations to the original SIP is kept outside of ARCHE. The provision of such provenance information in ARCHE currently is under development.</p>
 
@@ -150,44 +150,44 @@ understand the information without needing special resources such as the assista
 
 <p>Common file formats today might be superseded and not be supported in the future, due to changes in hardware and especially software. At ARCHE this risk is intended to be avoided by only accepting a defined set of data formats for archiving. This list is carefully curated (consult <a href="/browser/formats-filenames-and-metadata">Formats for Long Term Preservation</a>) and updated when necessary. A technology watch particularly monitors any developments of formats with a high risk (see <a href="https://github.com/usnationalarchives/digital-preservation/tree/master/Digital_Preservation_Risk_Matrix">NARA Digital Preservation Risk Matrix</a>) of becoming obsolete. Should a format become obsolete a bespoke migration plan will be developed and executed.</p>
 
-<p>Risk priority number - 10 | Probability - 2&nbsp; | Impact - 5</p>
+<p>Risk priority number - 10 | Probability - 2 | Impact - 5</p>
 
 <h3 id="complex-digital-objects">Complex Digital Objects</h3>
 
 <p>Very new, highly specialised as well as complex file formats with multiple dependencies do not always allow to make accurate preservation decisions. Future issues might arise easily if they do not get widely adopted or lack consistent specification. This risk cannot be avoided, but mitigation is possible by keeping the original as well as a migrated file of the object along with sufficient technical documentation.</p>
 
-<p>Risk priority number - 6 | Probability - 2&nbsp; | Impact - 3</p>
+<p>Risk priority number - 6 | Probability - 2 | Impact - 3</p>
 
 <h3 id="file-corruption">File Corruption</h3>
 
 <p>During transfer of data from one storage medium to another the bitstream might become corrupted. A system failure might lead to the same problem. If file corruption is discovered at a very late stage, recovery might not be possible anymore. This risk is mitigated by the use of adequate server storage, a dedicated backup strategy and regular integrity checks based on checksums.</p>
 
-<p>Risk priority number - 9 | Probability - 3&nbsp; | Impact - 3</p>
+<p>Risk priority number - 9 | Probability - 3 | Impact - 3</p>
 
 <h3 id="storage-media-failure">Storage Media Failure</h3>
 
 <p>The only storage media ARCHE relies upon is a dedicated institutional network storage (in a redundant RAID-6 setup). These are closely monitored and replaced in case of failure. Backups to a dislocated storage maintained by an external partner ensure that data is preserved even in a disaster event. .</p>
 
-<p>Risk priority number - 5 | Probability - 1&nbsp; | Impact - 5</p>
+<p>Risk priority number - 5 | Probability - 1 | Impact - 5</p>
 
 <h3 id="human-error">Human Error (accidental deletion or alteration)</h3>
 
 <p>Human mistakes do happen and can lead to incidents where data is accidentally altered or even deleted. This risk is mitigated by granting write access to the archiving system only to well trained data curators. Furthermore, a curation instance of the system functions as a safety net before data is ingested to the production instance. Before ingestion to the production instance the two-man rule is employed: no data is ingested to production before it was not approved by another curator.<br />
 Full history of metadata changes is preserved, and all data is regularly backed up, thus any erroneous changes to the metadata or deletions of the binary content can be rolled back.</p>
 
-<p>Risk priority number - 9 | Probability - 3&nbsp; | Impact - 3</p>
+<p>Risk priority number - 9 | Probability - 3 | Impact - 3</p>
 
 <h3 id="non-compliance">Non Compliance</h3>
 
 <p>Non compliance with legal obligations like laws, internal or external policies and standards can result in a loss of trustworthiness. Manual curation by trained staff helps in avoiding this risk.</p>
 
-<p>Risk priority number - 4 | Probability - 2&nbsp; | Impact - 2</p>
+<p>Risk priority number - 4 | Probability - 2 | Impact - 2</p>
 
 <h3 id="organisational-risk">Organisational Risk</h3>
 
-<p>A change in the priorities of the Austrian Academy of Sciences (ÖAW), a lack of funding or a general change in the political climate might lead to the demise of the archive. In any of these cases data and metadata from ARCHE will be transferred to another repository or even divided up between other suitable repositories.<br />
-&nbsp;<br />
-Risk priority number - 3 | Probability - 1&nbsp; | Impact - 3</p>
+<p>A change in the priorities of the Austrian Academy of Sciences (ÖAW), a lack of funding or a general change in the political climate might lead to the demise of the archive. In any of these cases data and metadata from ARCHE will be transferred to another repository or even divided up between other suitable repositories.</p>
+
+<p>Risk priority number - 3 | Probability - 1 | Impact - 3</p>
 
 <h2 id="relevant-standards-and-frameworks">Relevant Standards and Frameworks</h2>
 
