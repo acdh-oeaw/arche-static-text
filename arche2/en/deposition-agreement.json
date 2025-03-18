@@ -1,0 +1,38 @@
+{
+    "element_1": {
+        "intro": "This English version of the Deposition Agreement is for information purposes only. Please note that in the event of any difference in meaning or interpretation between the original German language version of this agreement and its translation, the former shall always prevail.",
+        "intro_2": "This agreement is between the organisation or person(s) authorised to transfer and deposit digital resources (hereinafter “the Depositor”) and the Austrian Academy of Sciences, whose Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH) operates ARCHE - A Resource Centre for Humanities (hereinafter the “Repository”).",
+        "depositor": "Depositor",
+        "depositor_contact" : ["<em>Title</em><br>",
+                    "<em>Last Name, First Name, Affiliation</em><br>",
+                    "<em>or</em> Institution, represented by:<br>",
+                    "<em>Title</em><br>",
+                    "<em>Last Name, First Name</em><br>",
+                    "Contact Information (Address, phone, email address etc.):"],
+        "repository": "Repository",
+        "repository_contact" : [
+            "ARCHE - A Resource Centre for Humanities<br>",
+                    "Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)<br>",
+                    "Austrian Academy of Sciences<br>",
+                    "Bäckerstraße 13<br>",
+                    "1010 Wien<br>",
+                    "Represented by: Director of the ACDH-CH"
+        ]
+    },
+    "definitions": {
+        "title": "§ 1. Definitions&nbsp;",
+        "text" : [
+        "<strong>Repository ID</strong>: String used as an internal identifier for the deposited resources.<br>",
+        "<strong>BagIT</strong>: A hierarchical file packaging format designed to support disk-based storage and network transfer of arbitrary digital content.<br>",
+        "<strong>Intellectual Property Rights (IPR)</strong>: Intellectual property rights, including but not limited to copyright, related rights (or neighbouring rights, such as database rights or industrial property rights).<br>",
+        "<strong>Metadata</strong>: Information that may serve to identify, discover, interpret, manage, and describe content and structure of digital data.<br>",
+        "<strong>Public Domain</strong>: Content, metadata or other subject matter no longer protected by intellectual property rights such as copyrights or related rights, or for which a waiver of rights exists.<br>",
+        "<strong>Resource</strong>: Files and data described in the section “Description of Material”.<br>",
+        "<strong>Submission Information Package (SIP)</strong>: Technical term from the <a href='http://www.oais.info/'>OAIS reference model</a> to designate the information package that is deposited to the Repository for archiving. The SIP contains the resources to be stored as well as all necessary metadata about the resource package and its content.<br>",
+        "<strong>Orphan Works</strong>: Content, metadata or other subject matter which is protected by copyright but whose right holder(s) cannot be identified or located after diligent search (§ 56e Urheberrechtsgesetz).<br>",
+        "<strong>Third Party(ies)</strong>: Any natural or legal person(s) who are not a party to this agreement.<br>",
+        "<strong>Persistent Identifier (Handle)</strong>: An URI created for the permanent referencing of resources. The Repository uses the Handle system for this purpose."
+        ]
+        
+    }
+}
