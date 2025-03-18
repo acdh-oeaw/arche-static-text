@@ -1,7 +1,7 @@
 {
     "element_1": {
         "intro": "This English version of the Deposition Agreement is for information purposes only. Please note that in the event of any difference in meaning or interpretation between the original German language version of this agreement and its translation, the former shall always prevail.",
-        "intro_2": "This agreement is between the organisation or person(s) authorised to transfer and deposit digital resources (hereinafter “the Depositor”) and the Austrian Academy of Sciences, whose Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH) operates ARCHE - A Resource Centre for Humanities (hereinafter the “Repository”).",
+        "description": "This agreement is between the organisation or person(s) authorised to transfer and deposit digital resources (hereinafter “the Depositor”) and the Austrian Academy of Sciences, whose Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH) operates ARCHE - A Resource Centre for Humanities (hereinafter the “Repository”).",
         "depositor": "Depositor",
         "depositor_contact": ["<em>Title</em><br>",
             "<em>Last Name, First Name, Affiliation</em><br>",
