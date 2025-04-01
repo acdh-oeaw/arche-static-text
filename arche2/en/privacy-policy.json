@@ -1,0 +1,111 @@
+{
+    "element_1": {
+        "content":[ "<p>The Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH) at the Austrian Academy of Sciences (OeAW) operates ARCHE. This document informs about ACDH-CH policies regarding the collection, use and disclosure of personal information received from users of ARCHE.</p>",
+                "<p> ACDH-CH takes the protection of personal information seriously and uses it only for providing and improving ARCHE’s services. By using the services, the user agrees to the collection and use of information in accordance with this policy and the <a href='https://gdpr.eu/'>General Data Protection Regulation</a>.</p>",
+                "<p> Generally the use of ARCHE is possible without indication of personal Information. Collection of personal information is required e.g., for registering as a user or depositing resources, which is voluntary. The information is not shared with third parties without explicit consent from the user.</p>"]
+    },
+    "element_2": {
+        "title": "",
+        "title_url" : "",
+        "title_url_text" : "",
+        "content":[""]
+    },
+    "element_3": {
+        "title": "",
+        "title_url" : "",
+        "title_url_text" : "",
+        "content":[""]
+    },
+    "element_4": {
+        "title": "",
+        "title_url" : "",
+        "title_url_text" : "",
+        "content":[""]
+    },
+    "element_5": {
+        "title": "",
+        "title_url" : "",
+        "title_url_text" : "",
+        "content":[""]
+    },
+    "element_6": {
+        "title": "",
+        "title_url" : "",
+        "title_url_text" : "",
+        "content":[""]
+    },
+    "element_7": {
+        "title": "",
+        "title_url" : "",
+        "title_url_text" : "",
+        "content":[""]
+    },
+    "element_8": {
+        "title": "",
+        "title_url" : "",
+        "title_url_text" : "",
+        "content":[""]
+    },
+    "element_9": {
+        "title": "",
+        "title_url" : "",
+        "title_url_text" : "",
+        "content":[""]
+    },
+    "element_10": {
+        "title": "",
+        "title_url" : "",
+        "title_url_text" : "",
+        "content":[""]
+    },
+    "element_11": {
+        "title": "",
+        "title_url" : "",
+        "title_url_text" : "",
+        "content":[""]
+    },
+    "element_12": {
+        "title": "",
+        "title_url" : "",
+        "title_url_text" : "",
+        "content":[""]
+    },
+    "element_13": {
+        "title": "",
+        "title_url" : "",
+        "title_url_text" : "",
+        "content":[""]
+    },
+    "element_14": {
+        "title": "",
+        "title_url" : "",
+        "title_url_text" : "",
+        "content":[""]
+    },
+    "element_15": {
+        "title": "",
+        "title_url" : "",
+        "title_url_text" : "",
+        "content":[""]
+    },
+    "cards": {
+        "cards_header_title_small": "GUIDANCE",
+        "cards_header_title": "Important Information",
+        "card_1_title": "Collection Policy",
+        "card_1_text": "Scope of collections, evaluation, and storage duration",
+        "card_1_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-collection-policy.png",
+        "card_1_url": "browser/collection-policy",
+        "card_2_title": "Preservation Policy",
+        "card_2_text": "Archiving, maintenance, and risk management",
+        "card_2_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-preservation-policy.png",
+        "card_2_url": "/browser/preservation-policy",
+        "card_3_title": "Terms of Use",
+        "card_3_text": "Conditions for the deposition, access, and use of data",
+        "card_3_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-terms-of-use.png",
+        "card_3_url": "/browser/terms-of-use",
+        "card_4_title": "FAQ",
+        "card_4_text": "Answers to frequently asked questions and practical tips for depositors",
+        "card_4_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-faq-new.png",
+        "card_4_url": "/browser/faq"
+    }
+}
