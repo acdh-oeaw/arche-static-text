@@ -15,6 +15,6 @@ jobs:
 
       - name: Call DEV API endpoint
         run: |
-          curl -X POST https://arche-dev.acdh-dev.oeaw.ac.at/browser/api/update-static-nodes \
+          curl -X GET https://arche-dev.acdh-dev.oeaw.ac.at/browser/api/update-static-nodes \
             -H "Content-Type: application/json" \
             -d '{"message": "Update statix text"}'
