@@ -19,3 +19,10 @@ jobs:
             -H "Authorization: Bearer ${{ secrets.ARCHE_DRUPAL_STATICTEXT_API_TOKEN }}" \
             -H "Content-Type: application/json" \
             -d '{"message": "Update static text"}'
+
+      - name: Call CURATION API endpoint
+        run: |
+          curl -X POST https://arche-curation.acdh-dev.oeaw.ac.at/browser/api/update-static-nodes \
+            -H "Authorization: Bearer ${{ secrets.ARCHE_DRUPAL_STATICTEXT_API_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d '{"message": "Update static text"}'      
