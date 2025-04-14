@@ -1,7 +1,7 @@
 {
     "element_1": {
         "header_title_small": "EINREICHUNGSPROZESS",
-        "header_title": "Wie funktioniert Dateneinreichung?",
+        "header_title": "Wie funktioniert die Dateneinreichung?",
         "video_url": "<iframe width='100%' height='315' src='https://www.youtube.com/embed/mmRfc7fNNSA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen=''></iframe>",
         "text": "Bei der Einreichung von digitalen Ressourcen für das Repositorium durchlaufen die Daten einen Kuratierungsprozess, um deren Qualität und Konsistenz zu gewährleisten. Wir unterstützen Sie dabei, die notwendigen Anforderungen für die nachhaltige Archivierung von Ressourcen einzuhalten: Daten sind mit Metadaten zu versehen und müssen in präferierten Formaten abgegeben werden, persistente Identifikatoren (PIDs) sind zu vergeben, gesetzliche Schutz- und Urheberrechte müssen geklärt und klare Angaben zur Lizenzierung und potentiellen Nutzung der Ressourcen gemacht werden."
     },
