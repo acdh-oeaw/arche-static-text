@@ -92,7 +92,7 @@
         ],
         "item_11_title": "What if I want/need to update the archived data?",
         "item_11_body": ["<p>Every change to the resources and metadata is stored as a new version. If the changes are substantial or if two versions of the data need to be available, a new object with a new PID should be created that is equipped and should include a link to the preceding version, which retains its PID.</p>"],
-        "item_12_title": "How safe is my data in ACDH-repo?",
+        "item_12_title": "How safe is my data in ARCHE-repo?",
         "item_12_body": ["<p>",
             "     ARCHE runs on the systems maintained by the Computing Centre of the Austrian Academy of Sciences (ARZ), which makes for a solid organisational and technical backing. To avoid data loss of archived data due to deterioration of physical storage, malicious threats, or other emergencies, redundancy is the key for the preservation of data. Regular backups help us to protect and restore data.",
             " </p>",
