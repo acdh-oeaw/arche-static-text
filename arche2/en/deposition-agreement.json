@@ -1,7 +1,7 @@
 {
     "element_1": {
         "intro": "This English version of the Deposition Agreement is for information purposes only. Please note that in the event of any difference in meaning or interpretation between the original German language version of this agreement and its translation, the former shall always prevail.",
-        "description": "This agreement is between the organisation or person(s) authorised to transfer and deposit digital resources (hereinafter “the Depositor”) and the Austrian Academy of Sciences, whose Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH) operates ARCHE - A Resource Centre for Humanities (hereinafter the “Repository”).",
+        "description": "This agreement is between the organisation or person(s) authorised to transfer and deposit digital resources (hereinafter “the Depositor”) and the Austrian Academy of Sciences, whose Austrian Centre for Digital Humanities (ACDH) operates ARCHE - A Resource Centre for Humanities (hereinafter the “Repository”).",
         "depositor": "Depositor",
         "depositor_contact": ["<em>Title</em><br>",
             "<em>Last Name, First Name, Affiliation</em><br>",
@@ -12,11 +12,11 @@
         "repository": "Repository",
         "repository_contact": [
             "ARCHE - A Resource Centre for Humanities<br>",
-            "Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)<br>",
+            "Austrian Centre for Digital Humanities (ACDH)<br>",
             "Austrian Academy of Sciences<br>",
             "Bäckerstraße 13<br>",
             "1010 Wien<br>",
-            "Represented by: Director of the ACDH-CH"
+            "Represented by: Director of the ACDH"
         ]
     },
     "section_1": {
@@ -36,7 +36,7 @@
     },
     "section_2": {
         "title": "§ 2. Purpose and Subject Matter of the Contract",
-        "text": ["<p>ARCHE is a service of the ACDH-CH for the stable and permanent long-term archiving and dissemination of digital research data and resources from the Austrian humanities research community. The Austrian Academy of Sciences thereby promotes science in accordance with its legal mandate.</p>",
+        "text": ["<p>ARCHE is a service of the ACDH for the stable and permanent long-term archiving and dissemination of digital research data and resources from the Austrian humanities research community. The Austrian Academy of Sciences thereby promotes science in accordance with its legal mandate.</p>",
             "<p>The agreement concerns transfer, curation, archival, and dissemination by ARCHE of electronic resources described in § 3.</p>"]
     },
     "section_3": {
