@@ -1,6 +1,6 @@
 {
     "element_1": {
-        "intro": "<p>Dieser Vertrag gilt zwischen der Organisation oder der/(den) Person(en), die zur Übertragung und Hinterlegung digitaler Ressourcen berechtigt ist/(sind) (im Folgenden der „Datengeber“) und der Österreichischen Akademie der Wissenschaften, dessen Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH) ARCHE - A Resource Centre for Humanities (im Folgenden das „Repositorium“) betreibt.</p>",
+        "intro": "<p>Dieser Vertrag gilt zwischen der Organisation oder der/(den) Person(en), die zur Übertragung und Hinterlegung digitaler Ressourcen berechtigt ist/(sind) (im Folgenden der „Datengeber“) und der Österreichischen Akademie der Wissenschaften, dessen Austrian Centre for Digital Humanities (ACDH) ARCHE - A Resource Centre for Humanities (im Folgenden das „Repositorium“) betreibt.</p>",
         "depositor": "Datengeber",
         "depositor_contact": ["<em>Titel</em><br>",
             " <em>Nachname, Vorname, Affiliation</em><br>",
@@ -11,11 +11,11 @@
         "repository": "Repositorium",
         "repository_contact": [
             "ARCHE - A Resource Centre for Humanities<br>",
-            "Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)<br>",
+            "Austrian Centre for Digital Humanities (ACDH)<br>",
             "Austrian Academy of Sciences<br>",
             "Bäckerstraße 13<br>",
             "1010 Wien<br>",
-            "Vertreten durch: Direktor:in des ACDH-CH"
+            "Vertreten durch: Direktor:in des ACDH"
         ]
     },
     
@@ -36,7 +36,7 @@
     },
     "section_2": {
         "title": "§ 2. Zweck und Vertragsgegenstand",
-        "text": ["<p>ARCHE ist ein Dienst des ACDH-CH für die stabile und dauerhafte Langzeitarchivierung sowie die Verbreitung von digitalen Forschungsdaten und Ressourcen aus der österreichischen geisteswissenschaftlichen Forschungsgemeinschaft. Die ÖAW fördert damit die Wissenschaft entsprechend ihrem gesetzlichen Auftrag.</p>",
+        "text": ["<p>ARCHE ist ein Dienst des ACDH für die stabile und dauerhafte Langzeitarchivierung sowie die Verbreitung von digitalen Forschungsdaten und Ressourcen aus der österreichischen geisteswissenschaftlichen Forschungsgemeinschaft. Die ÖAW fördert damit die Wissenschaft entsprechend ihrem gesetzlichen Auftrag.</p>",
                 "<p>Vertragsgegenstand ist die Übertragung, Kuratierung, Archivierung und Verbreitung der in § 3 beschriebenen elektronischen Ressourcen durch ARCHE.</p>"]
     },
     "section_3": {
