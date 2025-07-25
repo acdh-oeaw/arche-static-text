@@ -151,24 +151,24 @@
         "content":["<p>The provisions of Austrian law apply to this agreement. Place of jurisdiction is Vienna.</p>"]
     },
     "cards": {
-        "cards_header_title_small": "GUIDANCE",
-        "cards_header_title": "Important Information",
-        "card_1_title": "Collection Policy",
-        "card_1_text": "Scope of collections, evaluation, and storage duration",
-        "card_1_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-collection-policy.png",
-        "card_1_url": "browser/collection-policy",
-        "card_2_title": "Preservation Policy",
-        "card_2_text": "Archiving, maintenance, and risk management",
-        "card_2_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-preservation-policy.png",
-        "card_2_url": "/browser/preservation-policy",
-        "card_3_title": "Terms of Use",
-        "card_3_text": "Conditions for the deposition, access, and use of data",
-        "card_3_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-terms-of-use.png",
-        "card_3_url": "/browser/terms-of-use",
+        "cards_header_title_small": "ORIENTIERUNG",
+        "cards_header_title": "Wichtige Informationen",
+        "card_1_title": "Sammlungsstrategie",
+        "card_1_text": "Sammlungsbereich, Evaluierung und Speicherdauer",
+        "card_1_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-sammlungsstrategie.png",
+        "card_1_url": "browser/de/sammlungsstrategie",
+        "card_2_title": "Konservierungsrichtlinien",
+        "card_2_text": "Archivierung, Wartung und Risikomanagement",
+        "card_2_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-konservierungsrichtlinien.png",
+        "card_2_url": "/browser/de/konservierungsrichtlinien",
+        "card_3_title": "Nutzungsbedingungen",
+        "card_3_text": "Bedingungen für die Hinterlegung, den Zugang und die Verwendung von Daten",
+        "card_3_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-nutzungsbedingungen.png",
+        "card_3_url": "/browser/de/nutzungsbedingungen",
         "card_4_title": "FAQ",
-        "card_4_text": "Answers to frequently asked questions and practical tips for depositors",
+        "card_4_text": "Antworten auf häufig gestellte Fragen und Praxishinweise für Datengebende",
         "card_4_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-faq-new.png",
-        "card_4_url": "/browser/faq"
+        "card_4_url": "/browser/de/faq-de"
     }
 }
 
