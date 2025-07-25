@@ -289,23 +289,23 @@
         ]
     },
     "cards": {
-        "cards_header_title_small": "GUIDANCE",
-        "cards_header_title": "Important Information",
-        "card_1_title": "Preservation Policy",
-        "card_1_text": "Archiving, maintenance, and risk management",
-        "card_1_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-preservation-policy.png",
-        "card_1_url": "browser/preservation-policy",
-        "card_2_title": "Technical Setup",
-        "card_2_text": "Software components, client libraries, dissemination services, and storage",
-        "card_2_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-technical-setup.png",
-        "card_2_url": "/browser/technical-setup",
-        "card_3_title": "Dissemination Services",
-        "card_3_text": "Web applications designed to process and visualise specific data types or formats",
+        "cards_header_title_small": "ORIENTIERUNG",
+        "cards_header_title": "Wichtige Informationen",
+        "card_1_title": "Konservierungsrichtlinien",
+        "card_1_text": "Archivierung, Wartung und Risikomanagement",
+        "card_1_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-konservierungsrichtlinien.png",
+        "card_1_url": "browser/de/konservierungsrichtlinien",
+        "card_2_title": "Technischer Aufbau",
+        "card_2_text": "Softwarekomponenten, Client-Bibliotheken, Verbreitungsservices und Speicherverfahren",
+        "card_2_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-technischer_aufbau.png",
+        "card_2_url": "/browser/de/technischer-aufbau",
+        "card_3_title": "Verbreitungsservices",
+        "card_3_text": "Webanwendungen zur Verarbeitung und Visualisierung bestimmter Datentypen bzw. -formaten",
         "card_3_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-dissemination.png",
-        "card_3_url": "/browser/technical-setup#dissemination-services",
+        "card_3_url": "/browser/de/technischer-aufbau#dissemination-services",
         "card_4_title": "FAQ",
-        "card_4_text": "Answers to frequently asked questions and practical tips for depositors",
+        "card_4_text": "Antworten auf häufig gestellte Fragen und Praxishinweise für Datengebende",
         "card_4_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-faq-new.png",
-        "card_4_url": "/browser/faq"
+        "card_4_url": "/browser/de/faq-de"
     }
 }
