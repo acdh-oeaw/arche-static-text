@@ -91,7 +91,7 @@
         "card_3_title": "External Aggregators",
         "card_3_text": "Metadata harvesting via OAI-PMH by external aggregators",
         "card_3_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-external-aggregators.png",
-        "card_3_url": "/browser/api-access#external-aggregators",
+        "card_3_url": "/browser/api-access#oai-pmh",
         "card_4_title": "FAQ",
         "card_4_text": "Answers to frequently asked questions and practical tips for depositors",
         "card_4_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-faq-new.png",
