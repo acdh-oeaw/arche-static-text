@@ -78,23 +78,23 @@
                     "<p>Our backup policy follows a multi-layered setup: The full metadata dump is taken daily with a 7-day retention period. Every week a full metadata dump and an incremental binaries dump are taken and stored indefinitely on an <a href='http://www.netapp.com/'>NetApp</a> network storage provided by the <a href='https://www.oeaw.ac.at/arz'>ARZ</a>. The NetApp storage has a mirror in a second location.</p>"]
     },
     "element_6": {
-        "cards_header_title_small": "GUIDANCE",
-        "cards_header_title": "Important Information",
-        "card_1_title": "Preservation Policy",
-        "card_1_text": "Archiving, maintenance, and risk management",
+        "cards_header_title_small": "ORIENTIERUNG",
+        "cards_header_title": "Wichtige Informationen",
+        "card_1_title": "Konservierungsrichtlinien",
+        "card_1_text": "Archivierung, Wartung und Risikomanagement",
         "card_1_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-preservation-policy.png",
-        "card_1_url": "/browser/preservation-policy",
-        "card_2_title": "API Access",
-        "card_2_text": "Interfaces for programmatic search and query of ARCHE data",
+        "card_1_url": "/browser/de/konservierungsrichtlinien",
+        "card_2_title": "API-Zugriff",
+        "card_2_text": "Schnittstellen für die programmgesteuerte Suche und Abfrage der ARCHE-Daten",
         "card_2_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-api-access.png",
-        "card_2_url": "/browser/api-access",
-        "card_3_title": "External Aggregators",
-        "card_3_text": "Metadata harvesting via OAI-PMH by external aggregators",
+        "card_2_url": "/browser/de/api-zugriff",
+        "card_3_title": "Externe Aggregatoren",
+        "card_3_text": "Sammeln von Metadaten über OAI-PMH durch externe Aggregatoren",
         "card_3_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-external-aggregators.png",
-        "card_3_url": "/browser/api-access#external-aggregators",
+        "card_3_url": "/browser/de/api-zugriff#oai-pmh",
         "card_4_title": "FAQ",
-        "card_4_text": "Answers to frequently asked questions and practical tips for depositors",
+        "card_4_text": "Antworten auf häufig gestellte Fragen und Praxishinweise für Datengebende",
         "card_4_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-faq-new.png",
-        "card_4_url": "/browser/faq"
+        "card_4_url": "/browser/de/faq-de"
     }
 }
