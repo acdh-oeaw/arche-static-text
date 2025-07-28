@@ -294,7 +294,7 @@
         "card_1_title": "Konservierungsrichtlinien",
         "card_1_text": "Archivierung, Wartung und Risikomanagement",
         "card_1_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-konservierungsrichtlinien.png",
-        "card_1_url": "browser/de/konservierungsrichtlinien",
+        "card_1_url": "/browser/de/konservierungsrichtlinien",
         "card_2_title": "Technischer Aufbau",
         "card_2_text": "Softwarekomponenten, Client-Bibliotheken, Verbreitungsservices und Speicherverfahren",
         "card_2_image": "https://arche.acdh.oeaw.ac.at/browser/themes/contrib/arche-theme-bs/images/common/card-img-technischer_aufbau.png",
