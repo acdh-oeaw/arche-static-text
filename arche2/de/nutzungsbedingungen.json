@@ -66,7 +66,7 @@
         "title": "§ 6. Limitation of Liability",
         "title_url" : "#limitation-of-liability",
         "title_url_text" : "Link to this section: Limitation of Liability",
-        "content":["<p>The data offered by the Repository are provided to the User on an “as is” basis without warranty of any kind or claim to correctness or completeness.+</p>",
+        "content":["<p>The data offered by the Repository are provided to the User on an “as is” basis without warranty of any kind or claim to correctness or completeness.</p>",
             "<p> The Repository operates on a best-effort basis. It does not guarantee faultless functioning of its services or permanent availability. In case of failures, in particular because of force majeure or manipulation by third parties the Repository is not liable. The Repository does not assume any liability for the usability of the data for the purposes intended by the User.</p>",
             "<p> The Repository may deny access for technical, organisational or other reasons. It reserves the right to temporarily suspend services for purposes of maintenance, technical changes or similar reasons.</p>"]
     },
