@@ -1,86 +1,86 @@
 {
     "element_1": {
-        "content":[ "<p>The following terms and conditions apply to the use of resources and services provided by ARCHE - A Resource Centre for Humanities (henceforth ‘the Repository’) on the website https://arche.acdh.oeaw.ac.at/browser/ which is run and represented by the Austrian Centre for Digital Humanities (ACDH) of the Austrian Academy of Sciences.</p>",
-                "<p>The Repository’s main task is to provide archiving services for and access to digital resources. The Repository operates in the context of the Austrian digital humanities community and the European research infrastructure consortia CLARIN and DARIAH.</p>",
-                "<p>By accessing the Resources and using the services, the User agrees to the following terms and conditions concerning the viewing, downloading and using of electronic resources stored in the Repository.</p>"]
+        "content":[ "<p>Die folgenden Bedingungen gelten für die Nutzung der Ressourcen und Dienste, die von ARCHE – A Resource Centre for Humanities (im Folgenden „das Repositorium“) auf der Website https://arche.acdh.oeaw.ac.at/browser/ bereitgestellt werden, die vom Austrian Centre for Digital Humanities (ACDH) der Österreichischen Akademie der Wissenschaften betrieben und vertreten wird.</p>",
+                "<p>Die Hauptaufgabe des Repositoriums besteht darin, Archivierungsdienste für digitale Ressourcen bereitzustellen und Zugang zu diesen zu ermöglichen. Das Repositorium ist im Kontext der österreichischen Digital-Humanities-Community und der europäischen Forschungsinfrastrukturkonsortien CLARIN und DARIAH tätig.</p>",
+                "<p>Durch den Zugriff auf die Ressourcen und die Nutzung der Dienste erklärt sich der Benutzer mit den folgenden Bedingungen für das Anzeigen, Herunterladen und Verwenden der im Repositorium gespeicherten elektronischen Ressourcen einverstanden.</p>"]
     },
     "element_2": {
-        "title": "§ 1. Definitions",
-        "title_url" : "#definitions",
-        "title_url_text" : "Link to this section: Definitions",
+        "title": "§ 1. Definitionen",
+        "title_url" : "#definitionen",
+        "title_url_text" : "Link to this section: Definitionen",
         "content":["<p>",
-             "   <strong>Depositor:</strong> Person or organisation authorised to transfer and deposit digital resources, stored in the Repository.<br>",
-            "    <strong>Metadata:</strong> Information that may serve to identify, discover, interpret, manage, and describe content and structure of digital data.<br>",
-            "    <strong>Public Domain:</strong> Content, metadata or other subject matter not protected by IPR or subject to a waiver of IPR.<br>",
-            "    <strong>Repository:</strong> ARCHE - A Resource Centre for Humanities.<br>",
-            "    <strong>Resource:</strong> Information, files, and data stored in the Repository.<br>",
-            "    <strong>User:</strong> Person accessing the digital resources made available by the Repository.<br>",
+             "   <strong>Datengeber:</strong> Person oder Organisation, die befugt ist, digitale Ressourcen, die im Repositorium gespeichert sind, zu übertragen und zu hinterlegen.<br>",
+            "    <strong>Metadaten:</strong> Informationen, die zur Identifizierung, Auffindung, Interpretation, Verwaltung und Beschreibung von Inhalt und Struktur digitaler Ressourcen dienen können.<br>",
+            "    <strong>Gemeinfreie Werke:</strong> Inhalte, Metadaten oder sonstige Gegenstände, welche nicht oder nicht mehr durch Rechte am geistigen Eigentum wie Urheberrechte oder damit verwandte Schutzrechte geschützt sind, bzw. für die ein Rechtsverzicht vorliegt.<br>",
+            "    <strong>Repositorium:</strong> ARCHE - A Resource Centre for Humanities.<br>",
+            "    <strong>Ressource:</strong> Informationen, Dateien und Daten, die im Repositorium gespeichert sind.<br>",
+            "    <strong>Benutzer:</strong> Person, die auf die vom Repositorium bereitgestellten digitalen Ressourcen zugreift.<br>",
             "    &nbsp;",
             "</p>"]
     },
      "element_3": {
-        "title": "§ 2. Deposition of Resources",
-        "title_url" : "#deposition-of-resources",
-        "title_url_text" : "Link to this section: Deposition of Resources",
+        "title": "§ 2. Einreichung von Ressourcen",
+        "title_url" : "#einreichung-von-ressourcen",
+        "title_url_text" : "Link to this section: Einreichung von Ressourcen",
         "content":["<p>",
-             "   During the submission of Resources to the Repository, the data undergo a curation process by the Repository administrator. In collaboration with the Depositor basic levels of quality and consistency of the data is verified.<br>",
-            "    Before accepting the Resources from the Depositor, the Depositor has to sign the <a href='/browser/deposition-agreement'>Deposition Agreement</a> in which (s)he acknowledges that (s)he has the right to submit the data and gives the Repository the right to distribute the data on his/her behalf.",
+             "   Bei der Einreichung von Ressourcen in das Repositorium durchlaufen die Daten einen Kuratiierungsprozess durch den Administrator des Repositoriums. In Zusammenarbeit mit dem Datengeber werden grundlegende Qualitäts- und Konsistenzstandards der Daten überprüft.<br>",
+            "    Bevor die Ressourcen vom Datengeber angenommen werden, muss dieser den <a href='/browser/de/datenuebergabevertrag'>Datenübergabevertrag</a> unterzeichnen, in dem er/sie bestätigt, dass er/sie das Recht hat, die Daten einzureichen, und dem Repositorium das Recht einräumt, die Daten in seinem/ihrem Namen zu verbreiten.",
             "</p>"]
     },
      "element_4": {
-        "title": "§ 3. Access to and Use of the Resources",
-        "title_url" : "#access-to-and-use-of-the-resources",
-        "title_url_text" : "Link to this section: Access to and Use of the Resources",
+        "title": "§ 3. Zugriff auf und Nutzung der Ressourcen",
+        "title_url" : "#zugriff-auf-und-nutzung-der-ressourcen",
+        "title_url_text" : "Link to this section: Zugriff auf und Nutzung der Ressourcen",
         "content":["<p>",
-           "     The Repository offers access to the deposited resources in compliance with the licensing information applying to the Resource. Every Resource is represented by a short textual description and a structured metadata record, which includes a licence statement and information about the access mode. All Metadata is available without any restriction of access and use.",
+           "     Das Repositorium bietet Zugang zu den hinterlegten Ressourcen in Übereinstimmung mit den für die Ressource geltenden Lizenzinformationen. Jede Ressource wird durch eine kurze Textbeschreibung und einen strukturierten Metadatensatz dargestellt, der eine Lizenzangabe und Informationen über den Zugriffsmodus enthält. Alle Metadaten sind ohne Einschränkungen hinsichtlich des Zugriffs und der Nutzung verfügbar.",
            " </p>",
            " <p>",
-           "     The Repository offers three access modes:",
+           "     Das Repositorium bietet drei Zugriffsmodi:",
            " </p>",
            " <p>",
-           "     Academic content (ACA): to access the Resource the User has to register as an academic user. This is accomplished by authentication with the home identity provider by means of the Identity Federation.",
+           "     Akademische Inhalte (ACA): Um auf die Ressource zugreifen zu können, muss sich der Benutzer als akademischer Benutzer registrieren. Dies geschieht durch Authentifizierung beim heimischen Identitätsanbieter mittels Identitätsverbund <em>(Identity Federation)</em>.",
            " </p>",
            " <p>",
-           "     Restricted content (RES): includes Resources with a special access mode. Special authorisation rules apply that are detailed in the accompanying Metadata record.",
+           "     Eingeschränkter Inhalt (RES): Umfasst Ressourcen mit einem besonderen Zugriffsmodus. Es gelten spezifische Berechtigungsregeln, die im zugehörigen Metadatensatz detailliert beschrieben sind.",
            " </p>",
            " <p>",
-           "     The default licence of use of Resources is the Creative Commons licence <a href='https://creativecommons.org/licenses/by/4.0/'>CC-BY 4.0 (International)</a>.",
+           "     Die Standardlizenz für die Nutzung von Ressourcen ist die Creative-Commons-Lizenz <a href='https://creativecommons.org/licenses/by/4.0/'>CC-BY 4.0 (International)</a>.",
            " </p>",
            " <p>",
-            "    The User agrees to adhere to the <a href='http://www.allea.org/wp-content/uploads/2017/03/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017-1.pdf'>European Code of Conduct for Research Integrity</a>.",
+            "    Der Benutzer verpflichtet sich, den <a href='http://www.allea.org/wp-content/uploads/2017/03/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017-1.pdf'>Europäischen Verhaltenskodex für wissenschaftliche Integrität</a> einzuhalten.",
             "</p>"]
     },
      "element_5": {
-        "title": "§ 4. Intellectual Property Rights, Copyright",
-        "title_url" : "#intellectual-property-rights-copyright",
-        "title_url_text" : "Link to this section: Intellectual Property Rights, Copyright",
-        "content":["<p>All intellectual property rights concerning the provided Resources belong to the original creator. The Repository has the right to deposit and publish the Resources on behalf of the Depositor, according to the agreed conditions (see <a href='/browser/deposition-agreement'>Deposition Agreement</a>). The Depositor is solely responsible for taking care of IPR issues before publishing digital resources by submitting these to the Repository.</p>"]
+        "title": "§ 4. Rechte an geistigem Eigentum, Urheberrecht",
+        "title_url" : "#rechte-an-geistigem-eigentum-urheberrecht",
+        "title_url_text" : "Link to this section: Rechte an geistigem Eigentum, Urheberrecht",
+        "content":["<p>Alle geistigen Eigentumsrechte an den bereitgestellten Ressourcen liegen beim ursprünglichen Urheber. Das Repositorium hat das Recht, die Ressourcen im Namen des Datengebers gemäß den vereinbarten Bedingungen (siehe (siehe <a href='/browser/de/datenuebergabevertrag'>Datenübergabevertrag</a>) zu hinterlegen und zu veröffentlichen. Der Datengeber ist allein dafür verantwortlich, vor der Veröffentlichung digitaler Ressourcen durch Einreichung bei dem Repositorium alle Fragen des geistigen Eigentums zu klären.</p>"]
     },
      "element_6": {
-        "title": "§ 5. Citation",
-        "title_url" : "#citation",
-        "title_url_text" : "Link to this section: Citation",
-        "content":["<p>The User must acknowledge any use of Resources retrieved from the Repository and cite data sources properly in all publications and output according to the licence under which the Resource is published. The specific citation for every Resource is derived from the accompanying metadata record. See the FAQ: <a href='/browser/faq#faq-cite'>How can the archived data be cited?</a></p>"]
+        "title": "§ 5. Zitat",
+        "title_url" : "#zitat",
+        "title_url_text" : "Link to this section: Zitat",
+        "content":["<p>Der Benutzer muss jede Verwendung von Ressourcen, die aus dem Repositorium abgerufen wurden, kenntlich machen und die Datenquellen in allen Veröffentlichungen und Ergebnissen gemäß der Lizenz, unter der die Ressource veröffentlicht wurde, ordnungsgemäß zitieren. Die spezifische Zitierweise für jede Ressource ist dem zugehörigen Metadatensatz zu entnehmen. Siehe FAQ: <a href='/browser/de/faq-de#faq-zitieren'>Wie können die archivierten Daten zitiert werden?</a></p>"]
     },
      "element_7": {
-        "title": "§ 6. Limitation of Liability",
-        "title_url" : "#limitation-of-liability",
-        "title_url_text" : "Link to this section: Limitation of Liability",
-        "content":["<p>The data offered by the Repository are provided to the User on an “as is” basis without warranty of any kind or claim to correctness or completeness.</p>",
-            "<p> The Repository operates on a best-effort basis. It does not guarantee faultless functioning of its services or permanent availability. In case of failures, in particular because of force majeure or manipulation by third parties the Repository is not liable. The Repository does not assume any liability for the usability of the data for the purposes intended by the User.</p>",
-            "<p> The Repository may deny access for technical, organisational or other reasons. It reserves the right to temporarily suspend services for purposes of maintenance, technical changes or similar reasons.</p>"]
+        "title": "§ 6. Haftungsbeschränkung",
+        "title_url" : "#haftungsbeschraenkung",
+        "title_url_text" : "Link to this section: Haftungsbeschränkung",
+        "content":["<p>Die vom Repository angebotenen Daten werden dem Benutzer „so wie sie sind“ ohne jegliche Gewährleistung oder Anspruch auf Richtigkeit oder Vollständigkeit zur Verfügung gestellt.</p>",
+            "<p>Das Repositorium wird nach bestem Bemühen betrieben. Es übernimmt keine Gewähr für die fehlerfreie Funktion seiner Dienste oder deren ständige Verfügbarkeit. Bei Ausfällen, insbesondere aufgrund höherer Gewalt oder Manipulationen durch Dritte, haftet das Repositorium nicht. Das Repositorium übernimmt keine Haftung für die Verwendbarkeit der Daten für die vom Benutzer beabsichtigten Zwecke.</p>",
+            "<p>Das Repositorium kann den Zugang aus technischen, organisatorischen oder sonstigen Gründen verweigern. Es behält sich das Recht vor, Dienste aus Wartungsgründen, wegen technischer Änderungen oder aus ähnlichen Gründen vorübergehend auszusetzen.</p>"]
     },
      "element_8": {
-        "title": "§ 7. Data Protection and Privacy Policy",
-        "title_url" : "#data-protection-and-privacy-policy",
-        "title_url_text" : "Link to this section: Data Protection and Privacy Policy",
-        "content":["<p>The Repository protects any personal information it collects from the User as required by the Austrian legislation on data protection. The <a href='/browser/privacy-policy'>Privacy Policy</a> describes what personal data is collected and how it is processed.</p>"]
+        "title": "§ 7. Datenschutz und Datenschutzbestimmungen",
+        "title_url" : "#datenschutz-und-datenschutzbestimmungen",
+        "title_url_text" : "Link to this section: Datenschutz und Datenschutzbestimmungen",
+        "content":["<p>Das Repositorium schützt alle personenbezogenen Daten, die es vom Benutzer erfasst, gemäß den Bestimmungen der österreichischen Datenschutzgesetzgebung. Die <a href='/browser/de/datenschutzbestimmungen'>Datenschutzbestimmungen</a> beschreiben, welche personenbezogenen Daten erfasst und wie diese verarbeitet werden.</p>"]
     },
      "element_9": {
-        "title": "§ 8. Jurisdiction",
-        "title_url" : "#jurisdiction",
-        "title_url_text" : "Link to this section: Jurisdiction",
-        "content":["<p>The provisions of Austrian law apply to this agreement. Place of jurisdiction is Vienna.</p>"]
+        "title": "§ 8. Gerichtsstand",
+        "title_url" : "#gerichtsstand",
+        "title_url_text" : "Link to this section: Gerichtsstand",
+        "content":["<p>Für diesen Vertrag gelten die Bestimmungen des österreichischen Rechts. Gerichtsstand ist Wien.</p>"]
     },
     "cards": {
         "cards_header_title_small": "ORIENTIERUNG",
