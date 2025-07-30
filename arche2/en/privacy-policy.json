@@ -81,7 +81,7 @@
         "title_url" : "#cookies",
         "title_url_text" : "Link to this section: Cookies",
         "content":["<p>Cookies are files with a small amount of harmless data, which may include an anonymous unique identifier. Cookies are sent to the user’s browser from a web site and stored on the user’s hard drive.</p>",
-            "<p> Like many sites, ACDH uses cookies. Cookies that collect information do this solely for the purpose of improving ARCHE’s services and enhancing user experience. The user can instruct his browser to refuse all cookies or to indicate when a cookie is being sent. However, if the user does not accept cookies, he may not be able to use some portions of ARCHE’s services.</p>",
+            "<p>Like many sites, ACDH uses cookies. Cookies that collect information do this solely for the purpose of improving ARCHE’s services and enhancing user experience. The user can instruct his browser to refuse all cookies or to indicate when a cookie is being sent. However, if the user does not accept cookies, he may not be able to use some portions of ARCHE’s services.</p>",
             "<p>ARCHE uses both session and persistent cookies to enable certain functions of ARCHE’s service, to provide analytics and to store user preferences. Cookies are not used for advertising purposes.</p>"]
     },
     "element_7": {
@@ -90,7 +90,7 @@
         "title_url_text" : "Link to this section: Matomo",
         "content":["<p>Like most website operators, ARCHE collects non-personally-identifying information of the sort that web browsers and servers typically make available, such as the browser type, language preference, referring site, and the date and time of each visitor request. For this purpose an own instance of Matomo is used.</p>",
             "<p>ARCHE’s purpose in collecting non-personally identifying information is to better understand how ARCHE’s visitors use its website and services. ARCHE may release non-personally-identifying information in the aggregate, e.g., by publishing a report on trends in the usage of its website, to reveal how many downloads a particular resource got or to say which resources are most popular.</p>",
-            "<p> ARCHE also collects potentially personally-identifying information like Internet Protocol (IP) addresses. ARCHE does not use such information to identify its visitors, however, and does not disclose such information, other than under the same circumstances that it uses and discloses personally-identifying information, as described above.</p>"]
+            "<p>ARCHE also collects potentially personally-identifying information like Internet Protocol (IP) addresses. ARCHE does not use such information to identify its visitors, however, and does not disclose such information, other than under the same circumstances that it uses and discloses personally-identifying information, as described above.</p>"]
     },
     "element_8": {
         "title": "Opting-out of Website Tracking",
