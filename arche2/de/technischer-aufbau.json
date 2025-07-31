@@ -56,7 +56,7 @@
             "        <a href='https://github.com/acdh-oeaw/arche-lib-schema'>arche-lib-schema</a> provides object mappings for the ACDH ontology. It is used by arche-doorkeeper and arche-gui.",
             "    </li>",
             "    <li>",
-            "        <a href='https://github.com/acdh-oeaw/arche-lib-disserv'>arche-lib-disserv</a> provides a PHP API for handling of dissemination services, i.e. matching a repository resource with proper dissemination services and creating a redirection URL. It is used by arche-resolver and arche-gui.",
+            "        <a href='https://github.com/acdh-oeaw/arche-lib-disserv'>arche-lib-disserv</a> provides a PHP API for handling of dissemination services, i.e., matching a repository resource with proper dissemination services and creating a redirection URL. It is used by arche-resolver and arche-gui.",
             "    </li>",
             "    <li>",
             "        <a href='https://github.com/acdh-oeaw/arche-lib-ingest'>arche-lib-ingest</a> provides a high-level PHP API for ingesting data into ARCHE. To this end RDF graphs with metadata are parsed and ingested along with files from a given directory. The application is used by curators to ingest data into ARCHE.",
