@@ -1,7 +1,7 @@
 {
     "element_1": {
         "intro":[ "<p>ARCHE provides several interfaces to search and retrieve its data in programmatic ways.</p>",
-                "<p>ARCHE APIs are built using microservices. It means the ARCHE core service provides only a basic functionality for creating, reading, updating, and deleting (<a href='https://en.wikipedia.org/wiki/Create,_read,_update_and_delete'>CRUD</a>) while all other features (e.g., <a href='/browser/de/api-zugriff#api-zugriff-oai-pmh'>OAI-PMH</a>) are handled by separate small services (called <em>dissemination services</em>) built on top of the core API.</p>"]
+                "<p>ARCHE APIs are built using microservices. It means the ARCHE core service provides only a basic functionality for creating, reading, updating, and deleting (<a href='https://en.wikipedia.org/wiki/Create,_read,_update_and_delete'>CRUD</a>) while all other features (e.g., <a href='/browser/de/api-zugriff#oai-pmh'>OAI-PMH</a>) are handled by separate small services (called <em>dissemination services</em>) built on top of the core API.</p>"]
     },
     "element_2": {
         "title": "ARCHE Core API",
