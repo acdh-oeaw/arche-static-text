@@ -74,8 +74,8 @@
         "title": "Storage Procedures",
         "title_url" : "#storage-procedures",
         "title_url_text" : "Link to this section: Storage Procedures",
-        "content":["<p>Data storage and backup procedures are essential to our data management system. To avoid data loss due to deterioration of physical storage, malicious threats or other emergencies, redundancy is the key for the preservation of data. The primary server storage is a <a href='https://en.wikipedia.org/wiki/Standard_RAID_levels#RAID_6'>RAID-6</a> configuration allowing to sustain read and write operations in the presence of up to two concurrent disk failures.</p>",
-                    "<p>Our backup policy follows a multi-layered setup: The full metadata dump is taken daily with a 7-day retention period. Every week a full metadata dump and an incremental binaries dump are taken and stored indefinitely on an <a href='http://www.netapp.com/'>NetApp</a> network storage provided by the <a href='https://www.oeaw.ac.at/arz'>ARZ</a>. The NetApp storage has a mirror in a second location.</p>"]
+        "content":["<p>Data storage and backup procedures are essential to our data management system. To avoid data loss due to deterioration of physical storage, malicious threats or other emergencies, redundancy is the key for the preservation of data. The primary data storage is a live-mirrored network-attached <a href='http://www.netapp.com/'>NetApp</a> storage managed by the Data Center of the <a href='https://www.oeaw.ac.at'>OEAW</a>. The mirror is stored in a separate location/</p>",
+                    "<p>Our backup policy follows a multi-layered setup: The full metadata dump is taken daily with a 7-day retention period. Every week a full metadata dump and an incremental binaries dump are taken and stored indefinitely on a dedicated network-attached storage provided by the Data Center of the <a href='https://www.oeaw.ac.at'>OEAW</a>. This storage is also mirrored to a secondary location.</p>"]
     },
     "element_6": {
         "cards_header_title_small": "ORIENTIERUNG",
