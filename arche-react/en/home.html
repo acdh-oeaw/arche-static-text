@@ -1,199 +1,206 @@
 <!-- element 1  What is arche? -->
-<div class="container px-5">
-    <div class="row gx-5 align-items-center justify-content-center">
-        <div class="col">
-            <div class="my-5 text-center">
-                <p class="section-header-title-small">
-                    {{ element_1.title_small }}
-                </p>
-                <h2 class="section-header-title">
-                    {{ element_1.title }}
-                </h2>
-            </div>
-        </div>
+<div className="container px-12">
+  <div className="grid grid-cols-12 items-center justify-center gap-x-12">
+    <div className="col-span-12">
+      <div className="my-12 text-center">
+        <p className="section-header-title-small">
+          {{ element_1.title_small }}
+        </p>
+        <h2 className="section-header-title">
+          {{ element_1.title }}
+        </h2>
+      </div>
     </div>
+  </div>
 </div>
-<div class="container px-5">
-    <div class="row gx-5 align-items-center justify-content-center">
-        <div class="col-lg-6 col-xl-6 col-xxl-6 d-xl-block text-center">
-            {{ element_1.content_left }}
-            
-        </div>
-        <div class="col-lg-6 col-xl-6 col-xxl-6">
-            <div class="my-5 text-xl-start">
-                {{ element_1.content_right }}                
-            </div>
-        </div>
+
+<div className="container px-12">
+  <div className="grid grid-cols-12 items-center justify-center gap-x-12">
+    <div className="col-span-12 lg:col-span-6 text-center xl:block">
+      {{ element_1.content_left }}
     </div>
+    <div className="col-span-12 lg:col-span-6">
+      <div className="my-12 xl:text-left">
+        {{ element_1.content_right }}
+      </div>
+    </div>
+  </div>
 </div>
 
 <!-- element 2 -->
 
-<div class="container px-5 mt-3">
-    <div class="row gx-5 align-items-center justify-content-center">
-        <div class="col">
-            <div class="my-5 text-center">
-                <p class="section-header-title-small">
-                    {{ element_2.title_small }}
-                </p>
-                <h2 class="section-header-title" id="deposit-discover-and-reuse-data">
-                    {{ element_2.title }} 
-                </h2>
-            </div>
-        </div>
+<div className="container px-12 mt-4">
+  <div className="grid grid-cols-12 items-center justify-center gap-x-12">
+    <div className="col-span-12">
+      <div className="my-12 text-center">
+        <p className="section-header-title-small">
+          {{ element_2.title_small }}
+        </p>
+        <h2 className="section-header-title" id="deposit-discover-and-reuse-data">
+          {{ element_2.title }}
+        </h2>
+      </div>
     </div>
-</div>
-<div class="container-fluid resources-container-home pt-5">
-    <div class="row-fluid">
-        <div class="container px-3 ">
-            <div class="row gx-5 justify-content-center">
-                
-                <div class="col-xl-3 col-lg-4 mb-5">
-                    <div class="card h-100 shadow border-0 d-flex align-items-center justify-content-center">
-                        <img class="card-img-top home-resources-images img-fluid" src="{{ element_2.card_1_image }}" alt="{{ element_2.card_1_title }}" width="165" height="138">
-                        <div class="card-body home-resources-body p-4">
-                            <h5 class="card-title mb-3 text-center">
-                                <a class="home-resources-title" href="{{ element_2.card_1_url }}">{{ element_2.card_1_title }}</a>
-                            </h5>
-                            <p class="card-text home-resources-text">
-                                {{ element_2.card_1_text }}
-                            </p>
-                            <p class="mt-auto">
-                                <a class="btn basic-arche-btn home-resources-btn" href="{{ element_2.card_1_url }}">Show</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 mb-5">
-                    <div class="card h-100 shadow border-0 d-flex align-items-center justify-content-center">
-                        
-                        <img class="card-img-top home-resources-images img-fluid" src="{{ element_2.card_2_image }}" alt="{{ element_2.card_2_title }}" width="165" height="136">
-                        <div class="card-body home-resources-body p-4">
-                            <h5 class="card-title mb-3 text-center">
-                                <a class="home-resources-title" href="{{ element_2.card_2_url }}">{{ element_2.card_2_title }}</a>
-                            </h5>
-                            <p class="card-text home-resources-text">
-                                {{ element_2.card_2_text }}
-                            </p>
-                            <p class="mt-auto">
-                                <a class="btn basic-arche-btn home-resources-btn" href="{{ element_2.card_2_url }}">Show</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 mb-5">
-                    <div class="card h-100 shadow border-0 d-flex align-items-center justify-content-center">
-                        <img class="card-img-top home-resources-images img-fluid" src="{{ element_2.card_3_image }}" alt="{{ element_2.card_3_title }}" width="165" height="134">
-                        <div class="card-body home-resources-body p-4">
-                            <h5 class="card-title mb-3 text-center">
-                                <a class="home-resources-title" href="{{ element_2.card_3_url }}">{{ element_2.card_3_title }}</a>
-                            </h5>
-                            <p class="card-text home-resources-text">
-                                {{ element_2.card_3_text }}
-                            </p>
-                            <p class="mt-auto">
-                                <a class="btn basic-arche-btn home-resources-btn" href="{{ element_2.card_3_url }}">Show</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+  </div>
 </div>
 
+<div className="w-full resources-container-home pt-12">
+  <div className="w-full">
+    <div className="container px-4">
+      <div className="grid grid-cols-12 gap-x-12 justify-center">
+        <!-- Card 1 -->
+        <div className="col-span-12 lg:col-span-4 xl:col-span-3 mb-12">
+          <div className="card h-full shadow flex items-center justify-center">
+            <img className="card-img-top home-resources-images w-full h-auto"
+                 src="{{ element_2.card_1_image }}"
+                 alt="{{ element_2.card_1_title }}" width="165" height="138">
+            <div className="card-body home-resources-body p-4">
+              <h5 className="card-title mb-3 text-center">
+                <a className="home-resources-title" href="{{ element_2.card_1_url }}">{{ element_2.card_1_title }}</a>
+              </h5>
+              <p className="card-text home-resources-text">
+                {{ element_2.card_1_text }}
+              </p>
+              <p className="mt-auto">
+                <a className="btn basic-arche-btn home-resources-btn" href="{{ element_2.card_1_url }}">Show</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div className="col-span-12 lg:col-span-4 xl:col-span-3 mb-12">
+          <div className="card h-full shadow flex items-center justify-center">
+            <img className="card-img-top home-resources-images w-full h-auto"
+                 src="{{ element_2.card_2_image }}"
+                 alt="{{ element_2.card_2_title }}" width="165" height="136">
+            <div className="card-body home-resources-body p-4">
+              <h5 className="card-title mb-3 text-center">
+                <a className="home-resources-title" href="{{ element_2.card_2_url }}">{{ element_2.card_2_title }}</a>
+              </h5>
+              <p className="card-text home-resources-text">
+                {{ element_2.card_2_text }}
+              </p>
+              <p className="mt-auto">
+                <a className="btn basic-arche-btn home-resources-btn" href="{{ element_2.card_2_url }}">Show</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div className="col-span-12 lg:col-span-4 xl:col-span-3 mb-12">
+          <div className="card h-full shadow flex items-center justify-center">
+            <img className="card-img-top home-resources-images w-full h-auto"
+                 src="{{ element_2.card_3_image }}"
+                 alt="{{ element_2.card_3_title }}" width="165" height="134">
+            <div className="card-body home-resources-body p-4">
+              <h5 className="card-title mb-3 text-center">
+                <a className="home-resources-title" href="{{ element_2.card_3_url }}">{{ element_2.card_3_title }}</a>
+              </h5>
+              <p className="card-text home-resources-text">
+                {{ element_2.card_3_text }}
+              </p>
+              <p className="mt-auto">
+                <a className="btn basic-arche-btn home-resources-btn" href="{{ element_2.card_3_url }}">Show</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- (Add more cards if needed with same pattern) -->
+
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- element 3 -->
 
-<div class="container-fluid arche-home-collections-slider">
-    <div class="container px-5">
-        <div class="row gx-5 align-items-center justify-content-center">
-            <div class="col">
-                <div class="my-5 text-center">
-                    <p class="section-header-title-small">
-                        {{ element_3.title_small }}
-                    </p>
-                    <h2 class="section-header-title">
-                        {{ element_3.title }}
-                    </h2>
-                </div>
-            </div>
+<div className="w-full arche-home-collections-slider">
+  <div className="container px-12">
+    <div className="grid grid-cols-12 items-center justify-center gap-x-12">
+      <div className="col-span-12">
+        <div className="my-12 text-center">
+          <p className="section-header-title-small">
+            {{ element_3.title_small }}
+          </p>
+          <h2 className="section-header-title">
+            {{ element_3.title }}
+          </h2>
         </div>
+      </div>
     </div>
-    <div class="container-fluid collections-container">
-        <div class="row">
-            <div class="container">
-                <div class="loader" id="home-slider-loader">
-                    &nbsp;
-                </div>
-                <div class="carousel slide" id="multi-item-carousel" data-bs-ride="carousel">
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner">
-                        &nbsp;
-                    </div>
-                    <p>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#multi-item-carousel" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button> <button class="carousel-control-next" type="button" data-bs-target="#multi-item-carousel" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </p>
-                </div>
-            </div>
+  </div>
+
+  <div className="w-full collections-container">
+    <div className="w-full">
+      <div className="container">
+        <div className="loader" id="home-slider-loader">&nbsp;</div>
+
+        <!-- Keep your custom carousel classes; Tailwind adds spacing only -->
+        <div className="carousel slide" id="multi-item-carousel" data-bs-ride="carousel">
+          <div className="carousel-inner">&nbsp;</div>
+          <p className="mt-4">
+            <button className="carousel-control-prev" type="button" data-bs-target="#multi-item-carousel" data-bs-slide="prev">
+              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button className="carousel-control-next" type="button" data-bs-target="#multi-item-carousel" data-bs-slide="next">
+              <span className="carousel-control-next-icon" aria-hidden="true"></span>
+              <span className="visually-hidden">Next</span>
+            </button>
+          </p>
         </div>
+      </div>
     </div>
+  </div>
 </div>
 
+<!-- element 4 -->
+<div className="w-full mission-container-home">
+  <div className="container mission-container">
+    <div className="grid grid-cols-12 gap-y-8">
+      <div className="col-span-12 lg:col-span-6">
+        <div className="text-center xl:text-left">
+          <p className="section-header-title-small">
+            {{ element_4.title_small }}
+          </p>
+          <h2 className="section-header-title text-[28px]">
+            {{ element_4.title }}
+          </h2>
+          <p className="lead fw-normal acdh-grey-color">
+            {{ element_4.content_left }}
+          </p>
+        </div>
+      </div>
 
-<!-- element 4 --> 
-<div class="container-fluid mission-container-home">
-    <!-- Fluid container with background -->
-    <div class="container mission-container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="text-center text-xl-start">
-                    <p class="section-header-title-small">
-                        {{ element_4.title_small }}
-                    </p>
-                    <h2 class="section-header-title" style="font-size:28px;">
-                       {{ element_4.title }} 
-                    </h2>
-                    <p class="lead fw-normal acdh-grey-color">
-                        {{ element_4.content_left }}
-                    </p>
-                </div>
-            </div>
-            <div class="col-lg-6 text-center">
-                {{ element_4.content_right }}                
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="">
-                    <a class="btn btn-arche-blue" href="{{ element_4.more_url }}">More</a>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="container">
-                    <div class="row text-center">
-                        <div class="col-4">
-                            <img class="img-fluid" src="/browser/themes/contrib/arche-theme-bs/images/logos/mission-acdh-logo.png" alt="..." width="56" height="62">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid" src="/browser/themes/contrib/arche-theme-bs/images/logos/mission-oaw-logo.png" alt="..." width="120" height="59">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid" src="/browser/themes/contrib/arche-theme-bs/images/logos/mission-arche-logo.png" alt="..." width="120" height="39">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+      <div className="col-span-12 lg:col-span-6 text-center">
+        {{ element_4.content_right }}
+      </div>
     </div>
+
+    <div className="grid grid-cols-12 items-center mt-6">
+      <div className="col-span-12 lg:col-span-6">
+        <a className="btn btn-arche-blue" href="{{ element_4.more_url }}">More</a>
+      </div>
+      <div className="col-span-12 lg:col-span-6">
+        <div className="container">
+          <div className="grid grid-cols-3 text-center items-center">
+            <div>
+              <img className="img-fluid w-full h-auto" src="/browser/themes/contrib/arche-theme-bs/images/logos/mission-acdh-logo.png" alt="..." width="56" height="62">
+            </div>
+            <div>
+              <img className="img-fluid w-full h-auto" src="/browser/themes/contrib/arche-theme-bs/images/logos/mission-oaw-logo.png" alt="..." width="120" height="59">
+            </div>
+            <div>
+              <img className="img-fluid w-full h-auto" src="/browser/themes/contrib/arche-theme-bs/images/logos/mission-arche-logo.png" alt="..." width="120" height="39">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </div>
 <!-- End of fluid container -->
-
-
-
