@@ -48,7 +48,7 @@
             "<strong>Creators</strong>: <em>Include all individuals involved in the creation of the resources, which share responsibility and accountability for the resources and will be mentioned in the citation of the resources.</em><br>",
             "<strong>Date of submission</strong>: dd.mm.yyyy<br>",
             "<strong>Scope and content statement</strong>: <em>Provide a description of types, purpose, and content of the resources being deposited.</em><br>",
-            "<strong>Extent</strong>: <em>Provide information about the extent of the resources. If a BagIt will be submitted the Payload Manifest (manifest-&lt;algoritm&gt;.txt) can be uploaded instead.</em><br>",
+            "<strong>Extent</strong>: <em>Provide information about the estimated extent of the resources. If a BagIt will be submitted the Payload Manifest (manifest-&lt;algoritm&gt;.txt) can be uploaded instead.</em><br>",
             "&nbsp;&nbsp;&nbsp;Overall file size in bytes:<br>",
             "&nbsp;&nbsp;&nbsp;Number of files:<br>",
             "&nbsp;&nbsp;&nbsp;Number of folders:<br>",
