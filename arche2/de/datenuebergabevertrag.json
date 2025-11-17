@@ -49,7 +49,7 @@
                 "    <strong>Ersteller</strong>: <em>Geben Sie alle an der Erstellung der Ressourcen beteiligten Personen an, die für die Ressourcen mitverantwortlich und rechenschaftspflichtig sind und bei der Zitierung der Ressourcen zu nennen sind.</em><br>",
                 "    <strong>Datum der Einreichung</strong>: TT.MM.JJJJ<br>",
                 "    <strong>Angaben zu Rahmen und Inhalt</strong>: <em>Beschreiben Sie Typen, Zweck und Inhalt der zu hinterlegenden Ressourcen.</em><br>",
-                "    <strong>Umfang</strong>: <em>Geben Sie Informationen zum Umfang der Ressourcen an. Wenn ein BagIt eingereicht wird, kann stattdessen das Payload Manifest (manifest-&lt;algoritm&gt;.txt) hochgeladen werden.</em><br>",
+                "    <strong>Umfang</strong>: <em>Geben Sie Informationen zum geschätzten Umfang der Ressourcen an. Wenn ein BagIt eingereicht wird, kann stattdessen das Payload Manifest (manifest-&lt;algoritm&gt;.txt) hochgeladen werden.</em><br>",
                 "    &nbsp;&nbsp;&nbsp;Gesamtgröße der Dateien in Bytes:<br>",
                 "    &nbsp;&nbsp;&nbsp;Anzahl der Dateien:<br>",
                 "    &nbsp;&nbsp;&nbsp;Anzahl der Ordner:<br>",
