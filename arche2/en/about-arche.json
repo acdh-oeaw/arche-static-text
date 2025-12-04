@@ -49,7 +49,7 @@
             "    ARCHE is a service offered by <a href='https://www.oeaw.ac.at/acdh/'>ACDH</a>, a national centre of expertise in digital humanities founded with the intention to promote the change towards the digital paradigm in the humanities.",
             "</p>",
             "<p>",
-            "    ARCHE was awarded the CoreTrustSeal in 2017, a core level certification for trustworthy data repository systems, which was <a href='https://www.coretrustseal.org/wp-content/uploads/2021/07/20210709-ARCHE-CTS_Certification_2020-2022.pdf'>renewed in 2021</a>. To learn more, visit <a href='coretrustseal.org'>coretrustseal.org</a>. ARCHE has also been recognised as a service providing centre (<a href='http://hdl.handle.net/11372/DOC-105'>B-Centre</a>) by the <a href='https://www.clarin.eu/'>European Research Infrastructure CLARIN</a>.",
+            "    ARCHE was awarded the CoreTrustSeal in 2017, a core level certification for trustworthy data repository systems, which was <a href='https://doi.org/10.34894/SNEQ7'>renewed in 2021</a>. To learn more, visit <a href='https://www.coretrustseal.org/'>coretrustseal.org</a>. ARCHE has also been recognised as a service providing centre (<a href='http://hdl.handle.net/11372/DOC-105'>B-Centre</a>) by the <a href='https://www.clarin.eu/'>European Research Infrastructure CLARIN</a>.",
             "</p>",
             "<p>",
             "    In July 2020, the technology underlying ARCHE has been fundamentally overhauled, while still preserving all data, resolution of persistent identifiers (PIDs), as well as the user interface and APIs exposing data to external applications. For more details on the updated architecture see <a href='/browser/technical-setup'>Technical Setup</a>.",
